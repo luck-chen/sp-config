@@ -7,6 +7,11 @@ spring:
   cloud:
     config:
       override-none: true
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
 
 #defaultZone，默认位置，可以修改为具体地理位置，比如：beiJing, shangHai, shenZhen 等，表示 eureka 服务器的部署位置, 需要云服务器提供
 eureka:
